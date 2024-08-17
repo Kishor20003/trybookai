@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+h1{
+    color:rgb(206, 26, 185)
+}
+
+.price{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 30px;
+}
+
+.contents{
+   
+    border:solid black 1px;
+    padding:10px;
+    background-color: rgb(43, 33, 100);
+    
+    border-radius:12px;
+}
+
+.title h1{
+   
+    font-size:24px;  
+}
+.title{
+    padding:20px;
+}
+
+.title p{
+    margin-top: 5px;
+}
+
+
+.token{
+    padding:20px;
+}
+.token p{
+    margin-top:5px;
+}
+
+.billing{
+    padding:20px;
+}
+.billing p{
+    margin-top:5px;
+}
+table{
+    width:95%;
+   text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 1rem;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid var(black);
+    border-bottom: 1px solid black;
+    margin-left: 25px;
+    
+}
+
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+thead{
+    background-color: blueviolet;
+}
+tr{
+    border-bottom: 1px solid black;
+   
+}
+td{
+    padding: 5px;
+}
+th{
+    padding: 5px;
+}
